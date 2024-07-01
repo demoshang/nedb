@@ -1,6 +1,6 @@
 {
-  "name": "@seald-io/nedb",
-  "version": "4.0.4",
+  "name": "@s4p/nedb",
+  "version": "1.0.0",
   "files": [
     "lib/**/*.js",
     "browser-version/**/*.js",
@@ -11,7 +11,7 @@
   "author": {
     "name": "Timothée Rebours",
     "email": "tim@seald.io",
-    "url": "https://www.seald.io/"
+    "url": "https://github.com/demoshang/nedb"
   },
   "contributors": [
     {
@@ -31,6 +31,11 @@
     {
       "name": " Loïc Hermann",
       "email": "loic.hermann@outlook.fr"
+    },
+    {
+      "name": "Demo Shang",
+      "email": "",
+      "url": "https://github.com/demoshang"
     }
   ],
   "description": "File-based embedded data store for node.js",
@@ -39,10 +44,10 @@
     "datastore",
     "embedded"
   ],
-  "homepage": "https://github.com/seald/nedb",
+  "homepage": "https://github.com/demoshang/nedb",
   "repository": {
     "type": "git",
-    "url": "git@github.com:seald/nedb.git"
+    "url": "git@github.com:demoshang/nedb.git"
   },
   "dependencies": {
     "@seald-io/binary-search-tree": "^1.0.3",

@@ -54,6 +54,8 @@ declare class Nedb<Schema = Record<string, any>> extends EventEmitter {
 
   removeIndexAsync(fieldName: string | string[]): Promise<void>;
 
+  getIndexesAsync(): Promise<string[]>;
+
   insert<T extends Schema>(
     newDoc: T,
     callback?: (err: Error | null, document: Document<T>) => void
